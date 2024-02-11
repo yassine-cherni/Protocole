@@ -19,8 +19,8 @@ void MX_CAN_Init(void) {
   hcan.Init.TTCM = DISABLE;
   hcan.Init.ABOM = DISABLE;
   hcan.Init.AWUM = DISABLE;
-  hcan.Init.NART = DISABLE;
-  hcan.Init.RFLM = DISABLE;
+  hcan.Init.NART = DISABLE
+  hcan.Init.RFLM = DISABLE
   hcan.Init.TXFIFOQueueMode = DISABLE;
 
   HAL_CAN_Init(&hcan);
